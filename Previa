@@ -1,0 +1,9 @@
+echo "# hohub-v3" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Joaov8tor/hohub-v3.git
+git push -u origin main
+
+script loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
