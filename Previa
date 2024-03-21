@@ -1,9 +1,27 @@
-echo "# hohub-v3" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Joaov8tor/hohub-v3.git
-git push -u origin main
-____________________________________________________________________________________________________
-script loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+lua
+```Acesse https://discord.com/developers/applications e crie um novo aplicativo na conta na qual deseja o selo.
+Vá para a guia bot e gere uma conta de bot para o aplicativo.
+Clique no botão "Redefinir Token" para gerar um token (se você tiver o 2fa ativado, precisará do seu código).
+Copie o token para sua área de transferência.
+Clique neste emblema para clonar este repositório para um novo repl em Replit -> Executar em Repl.it
+Você será redirecionado para o Replit, talvez seja necessário criar uma conta (você pode registrar-se no Google).
+Replit é um site e não roda no seu computador!
+Aguarde até que o repositório termine de clonar e o repl se conecte totalmente.
+Clique no botão verde “Executar” na parte superior.
+Vá para o console (grande quadrado preto à direita) e cole o token que você copiou anteriormente (Nota: CTRL + V não funcionará, você precisará fazer CTRL + Shift + V ou clicar com o botão direito e clicar em colar) .
+Pressione a tecla 'Enter'.
+Espere que ele imprima 'DONE | O aplicativo/bot está instalado e funcionando. NÃO FECHE ESTA GUIA A MENOS QUE TERMINE DE USAR O BOT, ISSO COLOCARÁ O BOT OFFLINE.' no console, NÃO PARE O PROGRAMA NEM FECHE A ABA AINDA OU O BOT SERÁ CONSIDERADO PELO DISCORD COMO 'NÃO RESPOSTO'
+Volte para a página do aplicativo, vá até a aba “Informações Gerais”, role para baixo e copie o ID do aplicativo.
+Crie um novo servidor discord (você pode excluí-lo no final).
+Habilite a comunidade no servidor (você só precisa fazer isso se não possuir nenhum outro servidor discord com comunidade habilitada)
+Volte para https://discord.com/developers/applications.
+Copie o ID do aplicativo.
+Use este link de convite para adicionar o aplicativo ao servidor: (substitua {applicationid} pelo que você copiou) https://discord.com/oauth2/authorize?client_id={applicationid}&scope=bot%20applications.commands&permissions=105227086912
+No servidor, acesse um canal e use o comando /ping no bot.
+Vá para a página https://discord.com/developers/active-developer e registre tudo (se disser que você não é elegível, é porque você ainda não está registrado no sistema deles. Talvez seja necessário esperar até 24 horas).
+Parabéns por esse distintivo novinho em folha.
+NOTA: Certifique-se de ter a configuração “Usar dados para melhorar o Discord” habilitada em Configurações do usuário > Privacidade e segurança, caso contrário você não poderá ser marcado como elegível.
+
+NOTA 2: Você não precisa manter a guia Replit aberta 24 horas por dia, 7 dias por semana. Acesse o URL do Replit apenas quando quiser executar seu bot.
+
+Se você estiver enfrentando algum problema, crie um novo problema no GitHub ou entre neste servidor e envie-me um ping no canal #general.
